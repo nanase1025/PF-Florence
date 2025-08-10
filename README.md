@@ -1,6 +1,6 @@
 # PF-Florence
-What Do You Really Want? - Open-Vocabulary Intention-Guided Object Detection meets Vision Language Model
-
+An official repository of paper "What Do You Really Want? - Open-Vocabulary Intention-Guided Object Detection meets Vision Language Model"
+<p align="center"><img width="800" alt="image" src="https://github.com/nanase1025/PF-Florence/blob/main/asset/Fig1.png"></p> 
 ## 🫱 Requirement
  Install the environment:
  ```bash
@@ -15,8 +15,6 @@ pip install git+https://github.com/roboflow/supervision.git # If it is slow, you
 <loc{x1}><loc{y1}><loc{x2}><loc{y2}>
 ```
 with coordinates normalized and scaled to integers in the range [0, 999]
-
-2. Train
 ## 🫱 Usage
 1. Prepare the dataset (both the imgs and jsons in ./data), you can download them from [here](https://drive.google.com/drive/folders/1ds8xeix5SB5GMexXg_EA91IyPaitJxYs?usp=drive_link).
 2. Train
