@@ -5,6 +5,7 @@ An official repository of paper "What Do You Really Want? - Open-Vocabulary Inte
 -  We propose OV-IGOD Bench, the first open-source benchmark for object detection guided by free-form language intentions, featuring 14k images and 32k diverse annotations created through our novel multi-stage pipeline.
 -  We introduce PF-Florence with our Prompted Feature-wise Linear Modulation (P-FiLM) mechanism that enhances visual-language understanding through learnable queries, enabling more effective interpretation of complex intentions.
 - We demonstrate through extensive experiments that our approach significantly outperforms state-of-the-art models by up to 29\% on AP metrics, establishing new benchmarks for intention-guided object detection.
+
 ## 🫱 Requirement
  Install the environment:
  ```bash
