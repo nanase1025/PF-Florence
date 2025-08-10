@@ -1,0 +1,85 @@
+{
+  "7": {
+    "bboxes": [
+      {
+        "class_id": 4,
+        "class_name": "bed",
+        "affordance": "I long for a comfortable place to rest my tired body and get a good night's sleep",
+        "bbox": [
+          305,
+          204,
+          729,
+          529
+        ],
+        "target": "I long for a comfortable place to rest my tired body and get a good night's sleep<loc_418><loc_385><loc_999><loc_998>",
+        "object_name": "Mattress",
+        "dino_out": [
+          [
+            0.4478133022785187,
+            0.5235730856657028,
+            0.9716658294200897,
+            0.8159694224596024
+          ],
+          [
+            0.4312427043914795,
+            0.3948669731616974,
+            0.9975361824035645,
+            0.9961895644664764
+          ]
+        ],
+        "dino2florence_format": "Mattress<loc_447><loc_523><loc_971><loc_815><loc_431><loc_394><loc_997><loc_996>"
+      },
+      {
+        "class_id": 17,
+        "class_name": "dresser",
+        "affordance": "I need a space to organize my belongings and display personal items that reflect my style",
+        "bbox": [
+          77,
+          70,
+          327,
+          390
+        ],
+        "target": "I need a space to organize my belongings and display personal items that reflect my style<loc_105><loc_132><loc_448><loc_736>",
+        "object_name": "Dresser",
+        "dino_out": [
+          [
+            0.09709221124649048,
+            0.3645548075437546,
+            0.44915133714675903,
+            0.745586708188057
+          ],
+          [
+            0.8265467807650566,
+            0.5447718277573586,
+            0.9993901327252388,
+            0.7505251988768578
+          ]
+        ],
+        "dino2florence_format": "Dresser<loc_97><loc_364><loc_449><loc_745><loc_826><loc_544><loc_999><loc_750>"
+      },
+      {
+        "class_id": 35,
+        "class_name": "lamp",
+        "affordance": "I want to create a cozy atmosphere in the evening to help me unwind and read my favorite books",
+        "bbox": [
+          548,
+          230,
+          607,
+          326
+        ],
+        "target": "I want to create a cozy atmosphere in the evening to help me unwind and read my favorite books<loc_751><loc_434><loc_832><loc_615>",
+        "object_name": "Lamp",
+        "dino_out": [
+          [
+            0.7520771324634552,
+            0.4403907507658005,
+            0.8278510272502899,
+            0.6056051999330521
+          ]
+        ],
+        "dino2florence_format": "Lamp<loc_752><loc_440><loc_827><loc_605>"
+      }
+    ],
+    "caption": "The indoor space showcases a well-appointed bedroom corner that captures both elegance and comfort. The dark-stained dresser stands tall, topped with a variety of decorative items including a mirror and a vase with white flowers. The mirror reflects the room subtly, enhancing the sense of space and giving it a warm, inviting ambiance. A trio of framed pictures rests above the dresser, providing both visual interest and personal flair.\n\nAdjacent to the dresser is the bed, dressed in crisp linens with a prominent brand name, suggesting a focus on quality and comfort. The headboard leans gracefully against the wall, providing both aesthetic appeal and structural support. The placement of the bedside lamp next and behind the bed suggests thoughtful consideration for functional lighting, allowing for a relaxing transition between day and night.\n\nThe surrounding environment, with neutral walls and strategic lighting, creates a serene atmosphere conducive to relaxation. Plants in the background add a touch of nature, infusing the space with life and freshness. The entire setup invites rest and tranquility, offering a private retreat within a larger living area. Itly, the furniture and decor elements in harmony, making it an ideal space for personal retreat. People might sit at the dresser for a morning coffee, read by the bed's side or unwind with the soft glow of the lamp. The thoughtful arrangement of each piece enhances both the functionality and the overall coziness of the room, contributing to everyday comfort and beauty."
+  }
+}

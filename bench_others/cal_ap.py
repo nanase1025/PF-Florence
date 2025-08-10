@@ -18,7 +18,7 @@ def calculate_ap_from_json(json_file_path, image_dir=None):
     """
     
     processor = AutoProcessor.from_pretrained(
-    "/home/shr/wzccode/Florence-2-base-ft",
+    "microsoft/Florence-2-base-ft",
     trust_remote_code=True,
     revision='refs/pr/6'
     )
@@ -77,8 +77,8 @@ def calculate_ap_from_json(json_file_path, image_dir=None):
     return metrics
 def main():
     # File paths
-    json_file_path = '/home/shr/wzccode/icra2025/code/test_results/qwenvl25_test_result.json'
-    image_dir = '/home/shr/wzccode/icra2025/data/sunrgbd_jpgs'  # If image folder exists
+    json_file_path = 'path/to/your/json_file'
+    image_dir = 'path/to/your/image_dir'  # If image folder exists
     
     # Call function to calculate AP
     metrics = calculate_ap_from_json(json_file_path, image_dir)
