@@ -2,6 +2,7 @@
 An official repository of paper "What Do You Really Want? - Open-Vocabulary Intention-Guided Object Detection meets Vision Language Model"
 ## 🫱 A Quick Overview
 <p align="center"><img width="800" alt="image" src="https://github.com/nanase1025/PF-Florence/blob/main/asset/Fig1.png"></p> 
+
 -  We propose OV-IGOD Bench, the first open-source benchmark for object detection guided by free-form language intentions, featuring 14k images and 32k diverse annotations created through our novel multi-stage pipeline.
 
 -  We introduce PF-Florence with our Prompted Feature-wise Linear Modulation (P-FiLM) mechanism that enhances visual-language understanding through learnable queries, enabling more effective interpretation of complex intentions.
