@@ -418,8 +418,8 @@ def main():
     )
 
     # Load custom dataset 
-    IMAGE_DIR = "/home/shr/wzccode/icra2025/data/sunrgbd_jpgs"
-    ANNOTATION_FILE = "/home/shr/wzccode/icra2025/data/train_affordances_flo_v1.json"
+    IMAGE_DIR = "./data/sunrgbd_jpgs"
+    ANNOTATION_FILE = "./data/train.json"
     dataset = load_custom_dataset(IMAGE_DIR, ANNOTATION_FILE)
     # Create datasets and dataloaders
     train_dataset = SunRGBDAffordanceDataset(

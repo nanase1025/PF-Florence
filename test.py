@@ -21,7 +21,7 @@ print(f"Using device: {DEVICE}")
 
 # Model configuration
 CHECKPOINT = "microsoft/Florence-2-base-ft" 
-WEIGHTS_PATH = "/home/shr/wzccode/icra2025/code/final/epoch_19"  
+WEIGHTS_PATH = "path/to/your/weights"  
 REVISION = 'refs/pr/6'
 
 # Dataset classes
@@ -175,8 +175,8 @@ def main():
     )
 
     # Load test dataset 
-    IMAGE_DIR = "/home/shr/wzccode/icra2025/data/sunrgbd_jpgs"
-    TEST_ANNOTATION_FILE = "/home/shr/wzccode/icra2025/data/test_affordances_flo_v1.json"
+    IMAGE_DIR = "./data/sunrgbd_jpgs"
+    TEST_ANNOTATION_FILE = "./data/test.json"
     
     test_dataset_info = load_custom_dataset(IMAGE_DIR, TEST_ANNOTATION_FILE)
     test_dataset = SunRGBDAffordanceDataset(
