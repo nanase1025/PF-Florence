@@ -37,3 +37,9 @@ python test.py
 ## 🫱 Test other model / your model.
 We provide a series of code for you to test your own model on the test set. 
 You should First convert your output to the format like `./bench_others/format.json`, the output paired with each input is the value of `dino2florence_format`, like `"Lamp<loc_752><loc_440><loc_827><loc_605>"`
+
+You can use
+```bash
+python ./bench_others/cal_ap.py
+```
+to calculate the metrics of your outputs.
