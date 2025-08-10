@@ -7,6 +7,16 @@ What Do You Really Want? - Open-Vocabulary Intention-Guided Object Detection mee
 pip install transformers==4.51.3 flash_attn timm einops peft
 pip install git+https://github.com/roboflow/supervision.git # If it is slow, you cloud install it from local
 ```
+## 📕 Dataset
+1. You can download the dataset from [here](https://drive.google.com/drive/folders/1ds8xeix5SB5GMexXg_EA91IyPaitJxYs?usp=drive_link).
+2. The intention input paired with each bbox is under the key of `affordance`. So the final inputs to the VLM are the image and intention.
+3. The ground truth is under the key of `target`, which is following the format of Florence-2 like:
+```bash
+<loc{x1}><loc{y1}><loc{x2}><loc{y2}>
+```
+with coordinates normalized and scaled to integers in the range [0, 999]
+
+2. Train
 ## 🫱 Usage
 1. Prepare the dataset (both the imgs and jsons in ./data), you can download them from [here](https://drive.google.com/drive/folders/1ds8xeix5SB5GMexXg_EA91IyPaitJxYs?usp=drive_link).
 2. Train
